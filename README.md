@@ -3,7 +3,6 @@
 ## By: Waed Hafitha.
 
 
-<br><br>
 ## About Random Quote App:
 This App uses FreeCodeCamp quotes [API][1] to fetch random quote and display it, it also allows sharing quotes on Twitter and Tumbler.
 
