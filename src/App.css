@@ -1,0 +1,68 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  height: 100vh;
+}
+
+#quote-box {
+  background-color: white;
+  margin: 140px 0px;
+  padding: 40px 50px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 1.75em;
+  font-weight: 500;
+}
+
+#text {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#text i {
+  margin-right: 7px;
+}
+
+#author {
+  font-size: 20px;
+  text-align: right;
+  width: 100%;
+}
+
+#btns-container {
+  width: 100%;
+}
+
+.button {
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  /* background-color: #333; */
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  margin-right: 7px;
+  opacity: 1;
+  cursor: pointer;
+  float: left;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+button {
+  float: right !important;
+  height: 52px !important;
+  margin-right: 0px !important;
+}
